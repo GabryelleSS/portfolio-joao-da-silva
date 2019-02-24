@@ -1,6 +1,7 @@
 body{
     background-color: #F2FFFC; 
     font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -22,12 +23,13 @@ p{
 blockquote{
     border: 10px solid #C2CCCA;
     box-sizing: border-box;
+    margin: 0;
     padding: 20px;
     width: 252px;
-    margin: 20px 40px;
+    width: 250px;
 }
 
-aside  a{
+aside a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
     padding: 20px;
@@ -39,9 +41,24 @@ footer{
 }
 
 main h1{
+    background-color: #851944;
     border-bottom: 10px solid black;
+    color: #F2FFFC;
     font-size: 60px;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0;
     padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main a{
+    color: #851944;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 main div{
@@ -61,7 +78,7 @@ aside h1{
 }
 
 strong{
-    font-weight: bold;
+    font-weight: 600;
 }
 
 em{
@@ -79,6 +96,28 @@ aside div{
 
 .icones-sociais li{
     display: inline-block;
+}
+
+.img-github{
+    background-image: url("../_img/github.png");
+    background-repeat: no-repeat;
+}
+
+.img-twitter{
+    background-image: url("../_img/twitter.png");
+    background-repeat: no-repeat;
+}
+
+.img-linkedin{
+    background-image: url("../_img/linkedin.png");
+    background-repeat: no-repeat;
+}
+
+.icones-sociais a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-indent: -99999px;
 }
 
 .rodape{
