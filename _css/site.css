@@ -80,3 +80,8 @@ aside div{
 aside li{
     display: inline-block;
 }
+
+footer{
+    background-color: #000;
+    color: white;
+}
