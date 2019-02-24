@@ -145,3 +145,7 @@ article footer a{
     text-align: center;
     text-decoration: none;
 }
+
+nav a{
+    text-transform: lowercase;
+}
