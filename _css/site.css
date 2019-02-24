@@ -77,11 +77,32 @@ aside div{
 
 }
 
-aside li{
+.icones-sociais li{
     display: inline-block;
 }
 
-footer{
+.rodape{
     background-color: #000;
-    color: white;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+article{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+article footer a{
+    color: #851944;
+}
+
+.leia-mais{
+    background-color: #E6E7E8;
+    display: block;
+    font-size: 12pt;
+    margin: 16px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
 }
