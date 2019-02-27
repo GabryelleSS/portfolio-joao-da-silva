@@ -1,7 +1,7 @@
 body{
     background-color: #F2FFFC; 
     font-family: "Crimson Text", "Times New Roman", serif;
-    font-size: 16pt;
+    font-size: 14pt;
     line-height: 1.5;
 }
 
@@ -187,3 +187,18 @@ img .navegacao-site{
 .rodape{
     clear: right;
 }
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+}
+
+main {
+    width: 85%;
+}
+
+
