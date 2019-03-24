@@ -1,204 +1,167 @@
-body{
-    background-color: #F2FFFC; 
-    font-family: "Crimson Text", "Times New Roman", serif;
-    font-size: 14pt;
-    line-height: 1.5;
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
 }
 
-h1, h2{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    clear: both;
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h1{
-    background-color: #851944;
-    color: #FFF;
-    text-align: center;
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
-p{
-    margin: 20px 0;
-    text-align: justify;
+p {
+	text-align: justify;
+	margin: 20px 0;
 }
 
-blockquote{
-    border: 10px solid #C2CCCA;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 20px;
-    width: 252px;
-    width: 250px;
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
-.petrobras{
-    float: right;
-    margin-left: 55px;
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
 
-.fiat{
-    float: left;
-    margin-right: 55px;
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
-cite{
-    font-style: italic;
-    float: right;
+main a {
+	color: #851944;
 }
 
-.subtitulo-texto{
-    clear: both;
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside a{
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-    padding: 20px;
-    text-decoration: none;
-}
-
-footer{
-    padding: 20px;
-}
-
-main h1{
-    background-color: #851944;
-    border-bottom: 10px solid black;
-    color: #F2FFFC;
-    font-size: 60px;
-    font-family: "Open Sans Condensed", sans-serif;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-main a{
-    color: #851944;
-}
-
-h2{
-    font-size: 40px;
-    font-family: "Open Sans Condensed", sans-serif;
-}
-
-main div{
-    margin: 0 auto;
-    width: 720px;
-    padding: 30px 0;
-}
-
-aside ul{
-    list-style-type: none;
-    text-align: center;
-}
-
-aside h1{
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-strong{
-    font-weight: 600;
-}
-
-em{
-    font-style: italic;
-}
-
-h2{
-    font-size: 30px;
-}
-
-aside div{
-    background-color: #851944;
-
-}
-
-.icones-sociais li{
-    display: inline-block;
-}
-
-.img-github{
-    background-image: url("../_img/github.png");
-    background-repeat: no-repeat;
-}
-
-.img-twitter{
-    background-image: url("../_img/twitter.png");
-    background-repeat: no-repeat;
-}
-
-.img-linkedin{
-    background-image: url("../_img/linkedin.png");
-    background-repeat: no-repeat;
-}
-
-.icones-sociais a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    text-indent: -99999px;
-}
-
-.rodape{
-    background-color: #000;
-    color: #F2FFFC;
+.citacao-bio, .navegacao-site, .rodape-pagina {
     padding: 20px;
 }
 
-article{
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
 }
 
-article footer a{
-    color: #851944;
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
-.leia-mais{
-    background-color: #E6E7E8;
-    display: block;
-    font-size: 12pt;
-    margin: 16px;
-    padding: 8px;
-    text-align: center;
-    text-decoration: none;
+strong {
+	font-weight: bold;
 }
 
-nav a{
-    text-transform: lowercase;
+em {
+	font-style: italic;
 }
 
-img, aside{
-    float: right;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
-    clear: both;     
-    box-sizing: border-box;
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
 }
 
-img .navegacao-site{
-    width: 15%;
-    box-sizing: border-box;
-    float: right;
+.icones-redes-sociais li {
+	display: inline-block;
 }
 
-.rodape{
-    clear: right;
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
 }
 
 main {
-    float: left;
-    width: 85%;
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
 }
 
-.minha-foto, .navegacao-site {
-    float: right;
+aside, .minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
 
-main {
-    width: 85%;
+.minha-foto{
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
+aside{
+	clear: right;
+	position: relative;
+	width: 15%;
+	top: 310px;
+}
 
+cite {
+	font-style: italic;
+	float: right;
+}
