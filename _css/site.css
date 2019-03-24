@@ -116,15 +116,15 @@ nav a {
 }
 
 .github {
-	background-image: url(github.png);
+	background-image: url(../_img/github.png);
 }
 
 .twitter {
-	background-image: url(twitter.png);
+	background-image: url(../_img/twitter.png);
 }
 
 .linkedin {
-	background-image: url(linkedin.png);
+	background-image: url(../_img/linkedin.png);
 }
 
 .fiat {

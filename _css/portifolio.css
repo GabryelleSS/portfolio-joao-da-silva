@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+figure{
+    border: 5px solid #000;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 550px;
+    padding: 7px;
+}
+
+.trabalho-dois{
+    position: absolute;
+    top: 268px;
+    margin-right: 752px;
+    left: 380px;
+}
+
+.trabalho-tres{
+    position: absolute;
+    margin-right: 752px;
+    margin-bottom: 120px; 
+}
+
+.trabalho-quatro{
+    position: absolute;
+    margin-right: 752px;
+    left: 380px;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+aside, .minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.minha-foto{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+aside{
+	clear: right;
+	position: relative;
+	width: 15%;
+	top: 310px;
+}
